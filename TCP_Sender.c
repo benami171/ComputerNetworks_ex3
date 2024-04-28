@@ -77,7 +77,7 @@ int main(int argc,char *argv[]){
                         "User Decision: Send the file again? (y/n): ",bytes_sent);
                         
         scanf(" %c", &user_decision); // Note the space before %c to skip any newline character
-        
+        // as
         const char * spaceMessage = "yes";
         if(send(sock,spaceMessage,strlen(spaceMessage),0) == -1){
         perror("send(2)");
