@@ -7,7 +7,7 @@
 #include <netinet/tcp.h> // for TCP_CONGESTION
 #include <unistd.h> // For the close function
 #include <string.h> // For the memset function
-#include <stdlib.h> // Standard library
+#include <stdlib.h> 
 #define BUFFER_SIZE 8192*4
 #define EXPECTED_BYTES 2097152
 
